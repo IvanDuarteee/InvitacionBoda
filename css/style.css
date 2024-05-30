@@ -1,0 +1,108 @@
+body {
+  background: rgb(255,255,255);
+  background: linear-gradient(9deg, rgba(255,255,255,1) 0%, rgba(200,156,125,1) 35%, rgba(252,164,101,1) 100%);
+}
+
+
+#fraseSuperior {
+  background: rgb(255,255,255);
+  background: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(70,92,107,1) 0%, rgba(49,75,104,1) 100%);
+  font-family: "ohno-softie-variable", sans-serif;
+  font-variation-settings: "wght" 300;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+
+.tituloVisible {
+  opacity: 1; /* Cambiar la opacidad a 1 para hacer el título visible */
+}
+
+.fotos {
+  border-radius: 10%;
+}
+
+.frase1 p {
+  font-family: 'gelica', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #2d0068;
+}
+
+#fecha {
+  color: rgb(161, 63, 63);
+  font-family: 'gelica', sans-serif;
+  font-weight: 350;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.iconoInstagram {
+  color: #3f729b;
+  font-size: large;
+}
+
+.iconoWsp {
+  color: #075e54;
+  font-size: large;
+}
+
+.iconoFb {
+  color: #2d1eb4;
+  font-size: large;
+}
+
+.containerDatos {
+  color: white;
+  background-color: #b46966;
+  font-weight: 600;
+  font-family: 'gelica', sans-serif;
+}
+
+.botonMira {
+  color: white;
+  background-color: #b46966;
+  font-weight: 600;
+  font-size: larger;
+  font-family: 'gelica', sans-serif;
+  border: solid;
+  border-color: #b46966;
+}
+
+.mapaDiv {
+   width: 50%;
+   border: solid;
+   color: #b46966;
+}
+
+.mapa {
+  width: 100%;
+}
+
+.botonMira:hover {
+  background-color: #ce6e6a;
+  border-color: #c5818a;
+}
+
+
+/*Media Queries*/
+
+@media (min-width: 320px) and (max-width: 570px) {
+  .frase1 p {
+    font-size: 18px;
+  }
+
+  #fecha {
+    color: rgb(161, 63, 63);
+    font-family: 'gelica', sans-serif;
+    font-weight: 350;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .flex-new-xs-column {
+    flex-direction: column !important;
+}
+
+}
