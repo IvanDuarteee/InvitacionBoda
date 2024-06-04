@@ -14,6 +14,87 @@ body {
   color: white;
 }
 
+@keyframes slideInOutReverse {
+  0% {
+      transform: translateX(-100%); /* fuera de la pantalla a la izquierda */
+      opacity: 0; /* transparente */
+  }
+  10% {
+      transform: translateX(0); /* completamente dentro de la pantalla */
+      opacity: 1; /* opaco */
+  }
+  90% {
+      transform: translateX(0); /* completamente dentro de la pantalla */
+      opacity: 1; /* opaco */
+  }
+  100% {
+      transform: translateX(100%); /* fuera de la pantalla a la derecha */
+      opacity: 0; /* transparente */
+  }
+}
+
+#fraseSuperior p {
+  display: inline-block; /* Permite la animación correcta */
+  animation: slideInOutReverse 10s linear infinite; /* 10 segundos por ciclo, en bucle */
+}
+
+
+
+.cajaImagen {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  border: solid;
+  border-width: 10px;
+  border-color: rgba(49,75,104,1);
+  box-shadow: 2px 5px 10px 15px rgba(70,92,107,1);
+}
+
+.fondoNombre {
+  background: rgb(255,255,255);
+  background: linear-gradient(315deg, rgba(49,75,104,1) 0%, rgba(49,75,104,1) 0%, rgba(49,75,104,1) 100%);
+}
+
+.imagenNombre {
+  margin-top:  -70px;
+}
+
+.titulosTexto1 {
+  font-family: "gamay", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  color: rgba(49,75,104,1);
+  text-shadow: 1px 4px 8px #b17404;
+}
+
+.titulosTexto2 {
+  font-family: "gamay", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+  color: rgba(49,75,104,1);
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E79CA8;
+  color: white;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "gamay", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.countdown div {
+  text-align: center;
+}
+.separator {
+  font-size: 3rem;
+}
+
+
 .tituloVisible {
   opacity: 1; /* Cambiar la opacidad a 1 para hacer el título visible */
 }
@@ -88,9 +169,55 @@ body {
 
 /*Media Queries*/
 
-@media (min-width: 320px) and (max-width: 570px) {
-  .frase1 p {
+@media (max-width: 991px) {
+  #carouselExampleInterval {
+      display: block;
+  }
+
+  #imageGrid {
+      display: none;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(49,75,104,1);
+    color: white;
+    padding: 10px;
     font-size: 18px;
+  }
+  .countdown div {
+    text-align: center;
+  }
+  .separator {
+    font-size: 3rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  #carouselExampleInterval {
+    display: none;
+  }
+  
+
+  #imageGrid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px; /* Espacio entre las imágenes */
+  }
+
+  #imageGrid img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 570px) {
+  #fraseSuperior {
+    font-size: 15px;
   }
 
   #fecha {
@@ -105,4 +232,10 @@ body {
     flex-direction: column !important;
 }
 
+}
+@media (min-width: 1280px) and (max-width: 1920px) {
+  main {
+    align-items: center;
+  }
+  
 }
