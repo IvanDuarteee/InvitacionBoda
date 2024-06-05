@@ -69,17 +69,40 @@ body {
 
 .titulosTexto2 {
   font-family: "gamay", sans-serif;
-  font-weight: 500;
+  font-weight:bolder;
   font-size: 24px;
   font-style: normal;
   color: rgba(49,75,104,1);
+}
+
+.titulosTexto3 {
+  font-family: "gamay", sans-serif;
+  font-weight:bolder;
+  font-size: 28px;
+  font-style: normal;
+  color: rgba(49,75,104,1);
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
+  
+}
+
+.titulosTexto4 {
+  background-color: rgba(49,75,104,1);
+  font-family: "gamay", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  color:  #c89c7d;
+}
+
+.titulosMargen2 {
+  margin-top: -50px !important;
 }
 
 .countdown {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #E79CA8;
+  background-color: rgba(49,75,104,1);
   color: white;
   padding: 20px;
   font-size: 2rem;
@@ -92,6 +115,24 @@ body {
 }
 .separator {
   font-size: 3rem;
+}
+
+
+.botonComoLlegar {
+  background-color: #b17404;
+  border: solid;
+  border-color:#3f729b;
+  font-family: "gamay", sans-serif;
+  font-weight: 800;
+  color: white;
+  font-size: 18px;
+}
+
+.botonComoLlegar:hover {
+  background-color: #3f729b;
+  color: white;
+  border: solid;
+  border-color: #b17404;
 }
 
 
@@ -170,6 +211,16 @@ body {
 /*Media Queries*/
 
 @media (max-width: 991px) {
+
+  .vicenteLugar {
+    margin-top: -60px;
+  }
+
+  .titulosMargen {
+    margin-top: -10px !important;
+  }
+
+ 
   #carouselExampleInterval {
       display: block;
   }
@@ -198,6 +249,8 @@ body {
 
 @media (min-width: 992px) {
 
+
+
   #carouselExampleInterval {
     display: none;
   }
@@ -216,21 +269,14 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 570px) {
+
+  .vicenteLugar {
+    margin-top: -40px;
+  }
+
   #fraseSuperior {
-    font-size: 15px;
+    font-size: 16px;
   }
-
-  #fecha {
-    color: rgb(161, 63, 63);
-    font-family: 'gelica', sans-serif;
-    font-weight: 350;
-    font-size: 18px;
-    font-weight: bolder;
-  }
-
-  .flex-new-xs-column {
-    flex-direction: column !important;
-}
 
 }
 @media (min-width: 1280px) and (max-width: 1920px) {
