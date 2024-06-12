@@ -161,9 +161,280 @@ body {
   font-style: normal;
 }
 
-.logosDuamFooter {
+.divLogosRedesSociales {
+  margin-bottom: -40px;
 }
+
+
 /*Media Queries*/
+
+@media (min-width: 320px) and (max-width: 570px) {
+  .vicenteLugar {
+    margin-top: -40px;
+  }
+
+  #fraseSuperior {
+    font-size: 16px;
+  }
+
+  .logosDuamFooter {
+    margin-top: -80px;
+  }
+  .logosDuamFooter2 {
+    margin-top: -170px;
+  }
+  
+}
+
+@media (min-width: 551px) and (max-width:991px){
+  #carouselExampleInterval {
+    height: 650px;
+  }
+
+  #carouselExampleInterval img {
+    height: 600px !important;
+  }
+
+  .fondoNombre {
+    height: 300px;
+  }
+
+  .imagenNombre {
+    width: 50% !important;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 50% !important;
+  }
+
+  .vestimentaIconos {
+    width: 50% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+ .logoDuam {
+    width: 25% !important;
+  }
+}
+
+@media (min-width:991px) and (max-width:1279px) {
+  #imageGrid {
+    height: 650px;
+  }
+
+  #imageGrid img {
+    height: 600px !important;
+  }
+
+  .fondoNombre {
+    height: 400px;
+  }
+
+  .imagenNombre {
+    width: 50% !important;
+    margin-top: -120px;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 40% !important;
+  }
+
+  .logosVarios {
+    width: 15% !important;
+  }
+
+  .vestimentaIconos {
+    width: 35% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+ .logoDuam {
+    width: 15% !important;
+    margin-bottom: -80px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width:1439px) {
+  #imageGrid {
+    height: 750px;
+  }
+
+  #imageGrid img {
+    height: 700px !important;
+  }
+
+  .fondoNombre {
+    height: 300px;
+  }
+
+  .imagenNombre {
+    width: 50% !important;
+    margin-top: -180px;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 40% !important;
+  }
+
+  .logosVarios {
+    width: 15% !important;
+  }
+
+  .vestimentaIconos {
+    width: 35% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+ .logoDuam {
+    width: 15% !important;
+    margin-bottom: -80px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width:1920px) {
+  #imageGrid {
+    height: 950px;
+  }
+
+  #imageGrid img {
+    height: 900px !important;
+  }
+
+  .fondoNombre {
+    height: 300px;
+  }
+
+  .imagenNombre {
+    width: 40% !important;
+    margin-top: -180px;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 20% !important;
+  }
+
+  .logosVarios {
+    width: 10% !important;
+  }
+
+  .vestimentaIconos {
+    width: 20% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+ .logoDuam {
+    width: 15% !important;
+    margin-bottom: -80px;
+  }
+}
 
 @media (max-width: 991px) {
   .vicenteLugar {
@@ -197,6 +468,7 @@ body {
   .separator {
     font-size: 3rem;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -213,23 +485,6 @@ body {
   #imageGrid img {
     width: 100%;
     height: auto;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 570px) {
-  .vicenteLugar {
-    margin-top: -40px;
-  }
-
-  #fraseSuperior {
-    font-size: 16px;
-  }
-
-  .logosDuamFooter {
-    margin-top: -80px;
-  }
-  .logosDuamFooter2 {
-    margin-top: -170px;
   }
 }
 @media (min-width: 1280px) and (max-width: 1920px) {
