@@ -16,11 +16,11 @@ body {
     rgba(70, 92, 107, 1) 0%,
     rgba(49, 75, 104, 1) 100%
   );
-  font-family: "ohno-softie-variable", sans-serif;
-  font-variation-settings: "wght" 300;
-  font-size: 25px;
+  font-family: "la-parisienne-script-regular", sans-serif;
+  font-weight: 600;
+  font-size: 60px !important;
   font-weight: bolder;
-  color: white;
+  color: #c89c7d;
 }
 
 @keyframes slideInOutReverse {
@@ -53,12 +53,10 @@ body {
   border: solid;
   border-width: 10px;
   border-color: rgba(49, 75, 104, 1);
-  box-shadow: 2px 5px 10px 15px rgba(70, 92, 107, 1);
 }
 
 .cajaImagen2 {
   border-color: #c89c7d !important;
-  box-shadow: 2px 5px 10px 15px #b17404;
   background-color: rgba(49, 75, 104, 1);
   z-index: 1;
 }
@@ -74,7 +72,13 @@ body {
 }
 
 .imagenNombre {
-  margin-top: -70px;
+  margin-top: -300px;
+}
+
+.imgprincipal2 img {
+  z-index: -1;
+  height: 800px;
+  width: 100%;
 }
 
 .titulosTexto1 {
