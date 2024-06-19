@@ -23,42 +23,21 @@ body {
   color: #c89c7d;
 }
 
-@keyframes slideInOutReverse {
-  0% {
-    transform: translateX(-100%); /* fuera de la pantalla a la izquierda */
-    opacity: 0; /* transparente */
-  }
-  10% {
-    transform: translateX(0); /* completamente dentro de la pantalla */
-    opacity: 1; /* opaco */
-  }
-  90% {
-    transform: translateX(0); /* completamente dentro de la pantalla */
-    opacity: 1; /* opaco */
-  }
-  100% {
-    transform: translateX(100%); /* fuera de la pantalla a la derecha */
-    opacity: 0; /* transparente */
-  }
-}
 
 #fraseSuperior p {
   display: inline-block; /* Permite la animación correcta */
   animation: slideInOutReverse 10s linear infinite; /* 10 segundos por ciclo, en bucle */
 }
 
-.cajaImagen {
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+.cajaImagen2 {
   border: solid;
   border-width: 10px;
-  border-color: rgba(49, 75, 104, 1);
-}
-
-.cajaImagen2 {
   border-color: #c89c7d !important;
   background-color: rgba(49, 75, 104, 1);
-  z-index: 1;
+}
+
+main {
+  margin-top: -10px;
 }
 
 .fondoNombre {
@@ -71,14 +50,12 @@ body {
   );
 }
 
-.imagenNombre {
-  margin-top: -300px;
-}
-
-.imgprincipal2 img {
-  z-index: -1;
-  height: 800px;
-  width: 100%;
+.NombresCasados {
+  font-family: "la-parisienne-script-regular", sans-serif;
+  font-weight: 600;
+  font-size: 50px !important;
+  font-weight: bolder;
+  color: #c89c7d;
 }
 
 .titulosTexto1 {
@@ -173,12 +150,38 @@ body {
 /*Media Queries*/
 
 @media (min-width: 320px) and (max-width: 570px) {
+  .imagenBorde {
+    position: absolute;
+    z-index: -1;
+    height: 450px;
+    object-fit: cover;
+    margin-top: -30px;
+
+  }
+
+  .imagenPrincipal {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px !important;
+  }
   .vicenteLugar {
     margin-top: -40px;
   }
 
   #fraseSuperior {
     font-size: 16px;
+  }
+
+  .Seccion1 {
+    margin-top: -60px;
+  }
+
+  .Seccion2 {
+
+  }
+
+  .SeparadorFlores {
+    margin-top: -40px;
   }
 
   .logosDuamFooter {
