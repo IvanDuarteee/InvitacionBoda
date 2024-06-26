@@ -1,0 +1,624 @@
+body {
+  background: -webkit-linear-gradient(
+    169deg,
+    #f3b9cb,
+    #ff96c5,
+    #ff5aa4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    169deg,
+    #f3b9cb,
+    #ff96c5,
+    #ff5aa4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#fraseSuperior {
+  background: -webkit-linear-gradient(
+    169deg,
+    #8cbed6,
+    #abddde
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    169deg,
+    #8cbed6,
+    #abddde
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "la-parisienne-script-regular", sans-serif;
+  font-weight: 600;
+  font-size: 60px !important;
+  font-weight: bolder;
+  color: #ff5aa4;
+}
+
+#fraseSuperior p {
+  display: inline-block; /* Permite la animación correcta */
+}
+
+main {
+  margin-top: -10px;
+}
+
+.fondoNombre {
+    background: -webkit-linear-gradient(
+        169deg,
+        #8cbed6,
+        #abddde
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        169deg,
+        #8cbed6,
+        #abddde
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.NombresCasados {
+  font-family: "la-parisienne-script-regular", sans-serif;
+  font-weight: 600;
+  font-size: 50px !important;
+  font-weight: bolder;
+  color: #ff5aa4;
+}
+
+.titulosTexto1 {
+  font-family: "gamay", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  color: #0e83b9;
+  text-shadow: 1px 4px 8px #ec4d95;
+}
+
+.titulosTexto2 {
+  font-family: "gamay", sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+  font-style: normal;
+  color: #0e83b9;
+}
+
+.titulosTexto3 {
+  font-family: "gamay", sans-serif;
+  font-weight: bolder;
+  font-size: 28px;
+  font-style: normal;
+  color: rgba(49, 75, 104, 1);
+  text-shadow: -1px 0 #8cbed6, 0 1px #8cbed6, 1px 0 #8cbed6, 0 -1px #8cbed6;
+}
+
+.titulosTexto4 {
+  background-color: #8cbed6;
+  font-family: "gamay", sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: normal;
+  color: #ff5aa4;
+}
+
+.titulosMargen2 {
+  margin-top: -50px !important;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: -webkit-linear-gradient(
+    169deg,
+    #8cbed6,
+    #abddde
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    169deg,
+    #8cbed6,
+    #abddde
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:#e03682 !important;
+  padding: 20px;
+  font-size: 2rem;
+  font-family: "gamay", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.countdown div {
+  text-align: center;
+}
+.separator {
+  font-size: 3rem;
+}
+
+.botonComoLlegar {
+  background-color: #8cbed6;
+  border: solid;
+  border-color: #3f729b;
+  font-family: "gamay", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.botonComoLlegar a {
+  color: #ff5aa4 !important;
+  font-weight: bolder;
+}
+
+.botonComoLlegar a:hover {
+  color: #8cbed6 !important;
+  font-weight: bolder;
+}
+
+.botonComoLlegar:hover {
+  background-color: #ff5aa4;
+  color: #8cbed6;
+  border: solid;
+  border-color: #3f729b;
+}
+
+.fraseInferior {
+  font-family: "novecento-sans-condensed", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #ff5aa4;
+  background-color: #8cbed6;
+  font-style: normal;
+}
+
+.divLogosRedesSociales {
+  margin-bottom: -40px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 320px) and (max-width: 570px) {
+  .imagenBorde {
+    position: relative;
+    z-index: -1;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 10px;
+  }
+
+  .imagenPrincipal {
+    position: relative;
+    margin-top: 0px !important;
+  }
+  .vicenteLugar {
+    margin-top: -40px;
+  }
+
+  #fraseSuperior {
+    font-size: 16px;
+  }
+
+  .Seccion1 {
+    margin-top: -20px;
+  }
+
+  .Seccion2 {
+  }
+
+  .SeparadorFlores {
+    margin-top: -10px;
+  }
+
+  .logosDuamFooter {
+    margin-top: -80px;
+  }
+  .logosDuamFooter2 {
+    margin-top: -170px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 991px) {
+  #fraseSuperior {
+    font-size: 90px !important;
+  }
+
+  .imagenBorde {
+    position: relative;
+    z-index: -1;
+    height: 750px;
+    object-fit: cover;
+    margin-top: -20px;
+  }
+
+  .imagenPrincipal {
+    height: 650px !important;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px !important;
+  }
+
+  .Seccion1 {
+    margin-top: -100px;
+  }
+
+  .NombresCasados {
+    font-size: 70px !important;
+  }
+
+  .fondoNombre {
+    height: 300px;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 50% !important;
+  }
+
+  .vestimentaIconos {
+    width: 50% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+  .logoDuam {
+    width: 25% !important;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1279px) {
+  #fraseSuperior {
+    font-size: 90px !important;
+  }
+
+  .imagenBorde {
+    position: relative;
+    height: 850px;
+    margin-top: 10px;
+  }
+
+  .imagenPrincipal {
+    height: 750px !important;
+    position: relative;
+    margin-top: 30px !important;
+  }
+
+  .NombresCasados {
+    font-size: 75px !important;
+  }
+
+  .fondoNombre {
+    height: 300px;
+  }
+  .SeparadorFlores {
+    margin-top: -100px;
+  }
+
+  .SeparadorFlores2 {
+    margin-top: -100px;
+  }
+
+  .Seccion1 {
+    margin-top: -160px;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 40% !important;
+  }
+
+  .logosVarios {
+    width: 15% !important;
+  }
+
+  .vestimentaIconos {
+    width: 35% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+  .logoDuam {
+    width: 15% !important;
+    margin-bottom: -80px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  #fraseSuperior {
+    font-size: 100px !important;
+  }
+
+  .imagenBorde {
+    position: relative;
+    height: 1000px;
+  }
+
+  .imagenPrincipal {
+    height: 950px !important;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px !important;
+  }
+
+  .NombresCasados {
+    font-size: 90px !important;
+  }
+
+  .fondoNombre {
+    height: 400px;
+  }
+  .SeparadorFlores {
+    margin-top: -100px;
+  }
+
+  .SeparadorFlores img {
+    width: 100%;
+  }
+
+  .SeparadorFlores2 {
+    margin-top: -100px;
+  }
+
+  .SeparadorFlores2 img {
+    width: 100%;
+  }
+
+  .Seccion1 {
+    margin-top: -200px;
+  }
+
+  .SeparadorFlores2 {
+    margin-top: -100px;
+  }
+  .Seccion2 {
+    margin-top: -250px !important;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 40% !important;
+  }
+
+  .logosVarios {
+    width: 15% !important;
+  }
+
+  .vestimentaIconos {
+    width: 35% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+  .logoDuam {
+    width: 15% !important;
+    margin-bottom: -80px;
+  }
+
+  .SeparadorFloresXL {
+    margin-top: -150px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  #fraseSuperior {
+    font-size: 100px !important;
+  }
+
+  .imagenBorde {
+    position: relative;
+    height: 1200px;
+  }
+
+  .imagenPrincipal {
+    height: 1100px !important;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px !important;
+  }
+
+  .NombresCasados {
+    font-size: 100px !important;
+  }
+
+  .fondoNombre {
+    height: 400px;
+  }
+  .SeparadorFlores {
+    margin-top: -180px;
+  }
+
+  .SeparadorFlores img {
+    width: 100%;
+  }
+
+  .SeparadorFlores2 {
+    margin-top: -100px;
+  }
+
+  .SeparadorFlores2 img {
+    width: 100%;
+  }
+
+  .Seccion1 {
+    margin-top: -270px;
+  }
+
+  .SeparadorFlores2 {
+    margin-top: -100px;
+  }
+  .Seccion2 {
+    margin-top: -350px !important;
+  }
+
+  .SeparadorFloresXL {
+    margin-top: -200px;
+  }
+
+  .countdown {
+    font-size: 25px !important;
+  }
+
+  .titulosTexto1 {
+    font-size: 32px;
+  }
+
+  .titulosTexto2 {
+    font-size: 30px;
+  }
+
+  .vicenteLugar {
+    width: 20% !important;
+  }
+
+  .logosVarios {
+    width: 10% !important;
+  }
+
+  .vestimentaIconos {
+    width: 20% !important;
+  }
+
+  .titulosTexto3 {
+    font-size: 32px;
+  }
+
+  .botonComoLlegar {
+    font-size: 25px;
+  }
+
+  .iconosWhatsappBoda {
+    width: 50% !important;
+  }
+
+  .containerWhatsapp {
+    justify-content: center !important;
+  }
+
+  .logoDuam {
+    width: 15% !important;
+    margin-bottom: -80px;
+  }
+}
+
+@media (max-width: 991px) {
+  .vicenteLugar {
+    margin-top: -60px;
+  }
+
+  .titulosMargen {
+    margin-top: -10px !important;
+  }
+
+  #carouselExampleInterval {
+    display: block;
+  }
+
+  #imageGrid {
+    display: none;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(49, 75, 104, 1);
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .countdown div {
+    text-align: center;
+  }
+  .separator {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #carouselExampleInterval {
+    display: none;
+  }
+
+  #imageGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+
+  #imageGrid img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1920px) {
+  main {
+    align-items: center;
+  }
+}
